@@ -1,4 +1,4 @@
-import { assertEquals } from "STD/assert/equals";
+import { deepStrictEqual } from "node:assert";
 import {
 	isStringASCII,
 	isStringASCIIControl,
@@ -14,47 +14,47 @@ Sea in dolores diam tincidunt labore sea stet vero dolor ut est.
 At aliquyam diam facilisis lorem et takimata et volutpat eros erat ipsum velit labore sed ea illum.
 Dolor lorem sed et volutpat exerci gubergren gubergren tempor quis ea eirmod eos ut dolor autem ipsum accumsan.`;
 Deno.test("1 All", { permissions: "none" }, () => {
-	assertEquals(isStringASCII(sample1), false);
+	deepStrictEqual(isStringASCII(sample1), false);
 });
 Deno.test("1 Control", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIControl(sample1), false);
+	deepStrictEqual(isStringASCIIControl(sample1), false);
 });
 Deno.test("1 Printable", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIPrintable(sample1), false);
+	deepStrictEqual(isStringASCIIPrintable(sample1), false);
 });
 Deno.test("2 All", { permissions: "none" }, () => {
-	assertEquals(isStringASCII(sample2), false);
+	deepStrictEqual(isStringASCII(sample2), false);
 });
 Deno.test("2 Control", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIControl(sample2), false);
+	deepStrictEqual(isStringASCIIControl(sample2), false);
 });
 Deno.test("2 Printable", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIPrintable(sample2), false);
+	deepStrictEqual(isStringASCIIPrintable(sample2), false);
 });
 Deno.test("3 All", { permissions: "none" }, () => {
-	assertEquals(isStringASCII(sample3), true);
+	deepStrictEqual(isStringASCII(sample3), true);
 });
 Deno.test("3 Control", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIControl(sample3), false);
+	deepStrictEqual(isStringASCIIControl(sample3), false);
 });
 Deno.test("3 Printable", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIPrintable(sample3), true);
+	deepStrictEqual(isStringASCIIPrintable(sample3), true);
 });
 Deno.test("4 All", { permissions: "none" }, () => {
-	assertEquals(isStringASCII(sample4), true);
+	deepStrictEqual(isStringASCII(sample4), true);
 });
 Deno.test("4 Control", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIControl(sample4), true);
+	deepStrictEqual(isStringASCIIControl(sample4), true);
 });
 Deno.test("4 Printable", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIPrintable(sample4), true);
+	deepStrictEqual(isStringASCIIPrintable(sample4), true);
 });
 Deno.test("5 All", { permissions: "none" }, () => {
-	assertEquals(isStringASCII(sample5), true);
+	deepStrictEqual(isStringASCII(sample5), true);
 });
 Deno.test("5 Control", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIControl(sample5), false);
+	deepStrictEqual(isStringASCIIControl(sample5), false);
 });
 Deno.test("5 Printable", { permissions: "none" }, () => {
-	assertEquals(isStringASCIIPrintable(sample5), false);
+	deepStrictEqual(isStringASCIIPrintable(sample5), false);
 });
