@@ -4,22 +4,22 @@ const regexpASCII = /^[\x00-\x7F]*$/;
  * Determine whether the string is ASCII.
  * @param {string} item Item that need to determine.
  * @returns {boolean} Determine result.
- * @example 1
+ * @example
  * ```ts
  * isStringASCII("日本語");
  * //=> false
  * ```
- * @example 2
+ * @example
  * ```ts
  * isStringASCII("👀");
  * //=> false
  * ```
- * @example 3
+ * @example
  * ```ts
  * isStringASCII("Hello, world!");
  * //=> true
  * ```
- * @example 4
+ * @example
  * ```ts
  * isStringASCII("");
  * //=> true
