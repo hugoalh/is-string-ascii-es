@@ -20,21 +20,21 @@ await invokeDenoNodeJSTransformer({
 			"is",
 			"string"
 		],
-		homepage: "https://git.kaki87.net/hugoalh/is-string-ascii-es#readme",
+		homepage: "https://github.com/hugoalh/is-string-ascii-es#readme",
 		bugs: {
-			url: "https://git.kaki87.net/hugoalh/is-string-ascii-es/issues"
+			url: "https://github.com/hugoalh/is-string-ascii-es/issues"
 		},
 		license: "MIT",
 		author: "hugoalh",
 		repository: {
 			type: "git",
-			url: "git+https://git.kaki87.net/hugoalh/is-string-ascii-es.git"
+			url: "git+https://github.com/hugoalh/is-string-ascii-es.git"
 		},
 		private: false,
 		publishConfig: {
 			access: "public"
 		}
 	},
-	outputDirectory: "dist/kaki87-npm",
+	outputDirectory: "dist/npm-github",
 	outputDirectoryPreEmpty: true
 });
