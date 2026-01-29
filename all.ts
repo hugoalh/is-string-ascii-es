@@ -1,4 +1,4 @@
-//deno-lint-ignore no-control-regex
+//deno-lint-ignore no-control-regex -- Intentional.
 const regexpASCII = /^[\x00-\x7F]*$/;
 /**
  * Determine whether the string is ASCII.
