@@ -85,10 +85,10 @@
 		// 	"command": "deno task npm-kaki87-publish --dry-run",
 		// 	"description": "Check for KaKi87 NPM."
 		// },
-		"npm-kaki87-publish": {
-			"command": "deno run --allow-all --no-prompt --quiet NPP --cleanup --cwd \"dist/npm-kaki87\" --ignore-ppv --provenance false --registry \"git.kaki87.net/api/packages/hugoalh/npm\"",
-			"description": "Publish to KaKi87 NPM."
-		},
+		// "npm-kaki87-publish": {
+		// 	"command": "deno run --allow-all --no-prompt --quiet NPP --cleanup --cwd \"dist/npm-kaki87\" --ignore-ppv --provenance false --registry \"git.kaki87.net/api/packages/hugoalh/npm\"",
+		// 	"description": "Publish to KaKi87 NPM."
+		// },
 		"npm-npm-build": {
 			"command": "deno run --allow-all --no-prompt --quiet .npm-npm.build.ts",
 			"description": "Build for NPM."
