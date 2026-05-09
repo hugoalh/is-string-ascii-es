@@ -4,8 +4,8 @@
 
 🔗
 [GitHub](https://github.com/hugoalh/is-string-ascii-es)
-[JSR](https://jsr.io/@hugoalh/is-string-ascii)
-[NPM](https://www.npmjs.com/package/@hugoalh/is-string-ascii)
+● [JSR](https://jsr.io/@hugoalh/is-string-ascii)
+● [NPM](https://www.npmjs.com/package/@hugoalh/is-string-ascii)
 
 An ECMAScript module to determine whether the string is ASCII.
 
