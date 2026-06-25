@@ -3,7 +3,8 @@
 [**⚖️** MIT](./LICENSE.md)
 
 🔗
-[GitHub](https://github.com/hugoalh/is-string-ascii-es)
+[DistBoard @hugoalh](https://hugoalh.github.io/distboard/is_string_ascii_ecmascript)
+● [GitHub](https://github.com/hugoalh/is-string-ascii-es)
 ● [JSR](https://jsr.io/@hugoalh/is-string-ascii)
 ● [NPM](https://www.npmjs.com/package/@hugoalh/is-string-ascii)
 
