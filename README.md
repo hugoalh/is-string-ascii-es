@@ -40,6 +40,9 @@ This does not request any runtime permission.
 | **Name** | **Path** | **Description** |
 |:--|:--|:--|
 | `.` | `./mod.ts` | Default. |
+| `./all` | `./all.ts` | All ASCII characters. |
+| `./control` | `./control.ts` | ASCII control characters. |
+| `./printable` | `./printable.ts` | ASCII printable characters. |
 
 > [!NOTE]
 > - Different runtimes have vary support for the sources and entrypoints, visit the runtime documentation for more information.
